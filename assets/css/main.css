@@ -1487,7 +1487,7 @@ input, select, textarea {
 		color: #e44c65;
 	  }
 	  
-	  @media screen and (max-width: 736px) {
+	  @media screen and (max-width: 500px) {
 		.jumbotron{
 		  display:flex;
 		  flex-direction: column-reverse;
@@ -1504,6 +1504,7 @@ input, select, textarea {
 		height: 180px;
 		width: auto;
 		margin-bottom: 50px;
+		flex-direction: column;
 	  } 
 
 		
@@ -1595,6 +1596,42 @@ ul.breadcrumb {
 	text-decoration: underline;
   }
 
-  grey{
+  .grey{
 	  color:black;
+  }
+  .font{
+	  font-size: 21px;
+  }
+  .center{
+	  text-align: center;
+  }
+
+  @media screen and (max-width: 500px) {
+	.rowz{
+	 display: flex;
+	  flex-direction: column;
+	  align-content:center;
+	}
+	.card-titlez{
+	  padding-top: 20px;
+	}
+	.rowz {
+	  align-items:center;
+	}
+	.card-deck .card {
+		margin-bottom: 50px;
+	}
+	.pad{
+		margin-top:20px;
+	}
+	
+  }
+  @media screen and (max-width: 500px){
+		.card-deck .card .card-img-top{
+				display: none
+		}
+		.card-deck .card .card-title {
+			font-size: 28px;
+			color: #e44c65;
+		}
   }
