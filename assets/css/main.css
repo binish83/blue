@@ -174,14 +174,16 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		font-size: 21pt;
+		color: #585858;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #74797f;
+		color: #585858;
 		font-weight: 300;
 		letter-spacing: -0.025em;
 		line-height: 1.4;
-		margin: 0 0 0.8em 0;
+		margin: 0 0 0 0;
 	}
 
 		h1 b, h2 b, h3 b, h4 b, h5 b, h6 b {
@@ -196,7 +198,7 @@ input, select, textarea {
 
 	h1 {
 		font-weight: 900;
-		margin: 0 0 1.7em 0;
+		margin: 0 0 0 0;
 		text-transform: uppercase;
 		font-size: 1em;
 	}
@@ -210,7 +212,7 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.35em;
+		font-size: 2em;
 	}
 
 	h4 {
@@ -236,11 +238,11 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h1, h2, h3, h4, h5, h6 {
-			margin: 0 0 1em 0;
+			margin: 0 0 0.5em 0;
 		}
 
 		h2 {
-			font-size: 1.5em;
+			font-size: 3em;
 		}
 
 	}
@@ -1511,9 +1513,9 @@ input, select, textarea {
 		  }
 		
 	
-	.borders{
+	/* .borders{
 		border-top: 15px solid #e44c65;
-	}
+	} */
 
 	.size{
 		font-size: 4rem;
@@ -1561,7 +1563,13 @@ input, select, textarea {
 	.cranberry{
 		border-color: #e44c65;
 	}
-
+	.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	  }
+	  
 	
 	
 	/* Style the list */
@@ -1605,6 +1613,9 @@ ul.breadcrumb {
   .center{
 	  text-align: center;
   }
+  .width{
+	  width: 200px;
+  }
 
   @media screen and (max-width: 500px) {
 	.rowz{
@@ -1634,4 +1645,50 @@ ul.breadcrumb {
 			font-size: 28px;
 			color: #e44c65;
 		}
+  }
+
+  .rows {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .columnz {
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+  }
+  
+  .columnz img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+	.columnz {
+	  flex: 50%;
+	  max-width: 50%;
+	}
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+	.columnz {
+	  flex: 100%;
+	  max-width: 100%;
+	}
+  }
+
+  .lowercase{
+		text-transform: none;
+		font-size: 4rem;
+		padding-top: 50px;
+		
+  }
+
+  .black{
+	  color:black;
   }
