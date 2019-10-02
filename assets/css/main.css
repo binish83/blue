@@ -1278,7 +1278,7 @@ input, select, textarea {
 		}
 
 			.banner .content:before {
-				content: '';
+				/* content: ''; */
 				display: block;
 				position: absolute;
 				top: 0.75em;
@@ -1292,7 +1292,7 @@ input, select, textarea {
 			}
 
 			.banner .content:after {
-				content: '';
+				/* content: ''; */
 				display: block;
 				position: absolute;
 				bottom: 0.7em;
@@ -1691,4 +1691,8 @@ ul.breadcrumb {
 
   .black{
 	  color:black;
+  }
+
+  .margin{
+	  margin: 0 !mportant;
   }
