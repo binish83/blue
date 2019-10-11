@@ -19,7 +19,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	/* vertical-align: baseline;} */
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -179,7 +180,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #585858;
+		color: #74797f;
 		font-weight: 300;
 		letter-spacing: -0.025em;
 		line-height: 1.4;
@@ -260,8 +261,9 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-left: solid 4px #e6e8eb;
+		border-left: solid 4px #9EE3D4;
 		font-style: italic;
+		font-size: 1.5rem;
 		margin: 0 0 2em 0;
 		padding: 0.5em 0 0.5em 2em;
 	}
@@ -1459,9 +1461,7 @@ input, select, textarea {
 		color: #566A81;
 	  }
 
-	  .shadow {
-		box-shadow: 0 4px 6px 0 rgba(34, 38, 42, .2);
-	  }
+	
 	  
 	  h1{
 		font-size: 2.5rem;
@@ -1529,7 +1529,7 @@ input, select, textarea {
 
 	#footers{
 		text-align: center;
-		padding-top: 10em;
+		padding-top: 0rem;
 		
 	}
 
@@ -1694,23 +1694,17 @@ ul.breadcrumb {
   }
 
   .margin{
-	  margin: 0 !mportant;
+	  margin: 0!important;
   }
-  .ludwig {
-  position: relative;
-  padding-left: 1em;
-  border-left: 0.2em solid lighten($black, 40%);
-  font-family: 'Roboto', serif;
-  font-size: $base-font-size;
-  line-height: $base-line-height;
-  font-weight: 100;
-  &:before, &:after {
-      content: '\201C';
-      font-family: 'Sanchez';
-      color: lighten($black, 40%);
-   }
-   &:after {
-      content: '\201D';
-   }
+
+ 
+.vertical {
+	padding: 1000px 0;
+	text-align: center;
+  }
+
+.space{
+	justify-content: space-around;
+	flex-direction: column
 }
 
