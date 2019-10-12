@@ -1638,9 +1638,9 @@ ul.breadcrumb {
 	
   }
   @media screen and (max-width: 500px){
-		.card-deck .card .card-img-top{
+		/* .card-deck .card .card-img-top{
 				display: none
-		}
+		} */
 		.card-deck .card .card-title {
 			font-size: 28px;
 			color: #e44c65;
