@@ -1708,3 +1708,38 @@ ul.breadcrumb {
 	flex-direction: column
 }
 
+
+@media screen and (min-width: 320px) and (max-width: 640px){
+	.small-text-center{
+		text-align: center;
+	}
+	.container.pl-5 , .pl-3 {
+		padding-left: unset !important;
+	}
+	.pt-5{
+		padding-top: unset;
+	}
+	.col.small-text-center{
+		margin-bottom: 5px;
+	}
+	.iread .col{
+
+	}
+
+
+}
+@media screen  and (max-width: 1120px){
+	.col.small-text-center{
+		margin-bottom: 10px;
+	}
+	.imeet .col-sm-6{
+		margin-bottom: 10px;
+	}
+
+}
+/*@media screen and (max-width: 768px)  and (max-width: 1120px){*/
+/*	.imeet .col-sm-6{*/
+/*		margin-bottom: 10px;*/
+/*	}*/
+/*}*/
+
