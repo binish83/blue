@@ -1785,3 +1785,9 @@ ul.breadcrumb li a:hover {
 .jumbotron-fluid {
     background-color: #fff;
 }
+
+@media screen  and (max-width: 500px) {
+    .pl-5{
+        padding-left: 15px;
+    }
+}
